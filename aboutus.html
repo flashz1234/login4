@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Atracción del viajero | About us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link  rel="stylesheet" href="css/style.css"/>
+	<link  rel="stylesheet" href="css/aboutus.css"/>
+	<link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+</head>
+<body>
+<section class="header" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(image/aboutus.jpg)">
+<div class="container">
+	<img class="logo" src="image/logo.png">
+
+	<div class="navbar">
+		<nav>
+			<ul id="menubar">
+			  <li><a href="index.php" class="active">Home</a></li>
+				<li><a href='destinations.php'>Destinations</a></li>
+				<li><a href='transportation.php'>Transportation</a></li>
+				<li><a href='profile.php'>Profile</a></li>
+				<li><a href='includes/logout.inc.php'>Log Out</a></li>
+
+			</ul>
+			<img src="image/menu.png" class="menu" onclick="menutoggle()">
+		</nav>
+
+	</div>
+</div>
+
+<h1>Welcome to Atracción del viajero</h1>
+	<p>“Travel is the main thing you purchase that makes you more extravagant”&nbsp;&nbsp;</p>
+
+</section>
+
+<!--Out team-->
+<section class="our-team">
+<h1>Our Team</h1>
+<div class="container">
+	<div class="row">
+	<div class="col-md-4">
+		<div class="our-team-box">
+			<div class="our-team-img">
+				<img src="image/admin1.jpeg">
+			</div>
+
+			<div class="our-team-details">
+				<h3>Alison Wong</h3><hr>
+				<p>We, at Atracción del viajero, swear by this and put stock in satisfying travel dreams that make you perpetually rich constantly.&nbsp;&nbsp;<p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="our-team-box">
+			<div class="our-team-img">
+				<img src="image/admin2.jpeg">
+			</div>
+
+			<div class="our-team-details">
+				<h3>Eric Chan</h3><hr>
+				<p>We have been moving excellent encounters for a considerable length of time through our cutting edge planned occasion bundles and other fundamental travel administrations.&nbsp;&nbsp;</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="our-team-box">
+			<div class="our-team-img">
+				<img src="image/admin3.jpeg">
+			</div>
+
+			<div class="our-team-details">
+				<h3>Karmeng Siow</h3><hr>
+				<p>We rouse our clients to carry on with a rich life, brimming with extraordinary travel encounters.&nbsp;&nbsp;</p>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+</section>
+
+
+<!--Footer-->
+<section class="footer">
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			<img class="footer-logo" src="image/logo.png">
+		</div>
+
+		<div class="col-md-3">
+			<h4>Features</h4>
+			<p class="hyper"><a  href="index.php">Home Page</a></p>
+			<p class="hyper"><a  href="destinations.php">Destinations</a></p>
+			<p class="hyper"><a  href="aboutus.html">About Us</a></p>
+			<p class="hyper"><a  href="transportation.php">Transportation</a></p>
+			<p class="hyper"><a  href="#">Place to Stay</a></p>
+		</div>
+
+		<div class="col-md-3">
+			<h4>Quick Contact</h4>
+			<p><i class="fa fa-phone-square"></i> +60105917200 (Mr. Chan)</p>
+			<p><i class="fa fa-envelope"></i> hsdstarlord001@gmail.com</p>
+			<!--<p><i class="fa fa-home"></i> Parkson, Bintang Mega Mall Lot 1657 Block 9, Jalan Miri Pujut, 98000 Miri, Sarawak</p>-->
+		</div>
+
+		<div class="col-md-3">
+			<h4>Follow Us On</h4>
+
+			<p class="hyper"><i class="fa fa-facebook-official"></i> <a  href="https://www.facebook.com/Atracci%C3%B3n-del-viajero-105745618263913" target="_blank">Facebook</a></p>
+			<p class="hyper"><i class="fa fa-instagram"></i> <a  href="https://www.instagram.com/travelerattractions0057/" target="_blank">Instagram</a></p>
+			<p class="hyper"><i class="fa fa-twitter"></i> <a  href="https://twitter.com/TravelAttracti1" target="_blank">Twitter</a></p>
+		</div>
+	</div><hr>
+	<p class="copyright">Copyright <i class="fa fa-copyright"></i> All Rights Reserved</p>
+</div>
+
+<!--Button to scroll back top of the page-->
+<a class="gotopbtn" href="#" style="text-decoration: none;">^</a>
+</section>
+
+<!--Javascript for the toggle menu-->
+<script>
+  var Menu = document.getElementById("menubar")
+
+  Menu.style.maxHeight = "0px"
+
+  function menutoggle(){
+    if (Menu.style.maxHeight == "0px")
+       {
+         Menu.style.maxHeight = "200px";
+       }
+
+    else
+       {
+         Menu.style.maxHeight = "0px";
+       }
+  }
+</script>
+</body>
+</html>

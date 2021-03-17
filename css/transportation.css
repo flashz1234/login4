@@ -1,0 +1,41 @@
+/*Features*/
+.description
+{
+	padding: 50px 0;
+}
+
+h1
+{
+	font-family: American Typewriter, serif;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.transport-img img
+{
+	height: auto;
+	width: 200px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.transport-details
+{
+	padding: 20px;
+	text-align: justify;
+}
+
+.transport-details h3
+{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.transport-box
+{
+	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+	border-radius: 10px;
+	margin-bottom: 30px;
+}

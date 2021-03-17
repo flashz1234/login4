@@ -1,0 +1,52 @@
+/*Booking*/
+.desc-recommend-hotel
+{
+	padding: 50px 0;
+}
+
+h1
+{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.booking-img img
+{
+	border-radius: 25px;
+	background-repeat: repeat;
+	padding: 20px;
+	height: 350px;
+	width: 100%;
+	
+}
+	
+}
+
+.booking-details
+{
+	padding: 20px;
+	text-align: justify;
+}
+
+.booking-details h3
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.booking-box
+{
+	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+
+.myBtn
+{
+	cursor: pointer;
+	text-decoration: none;
+	
+}
+
+
